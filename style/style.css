@@ -1,0 +1,85 @@
+*{
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+
+.contaner{
+    background-image: url(../images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+    display: flex;
+    /* padding: 80px; */
+}
+.images-text{
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+.left-heading{
+    padding: 10px 0;
+}
+
+.frome-contant{
+    width: 40%;
+    align-items: center;
+    padding: 80px 0;
+}
+.form-title{
+    background: hsl(248, 32%, 49%);
+    padding: 8px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+form{
+    margin: 6px 0;
+    padding: 5px;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+
+.box{
+    width: 100%;
+    margin: 6px 0;
+    padding: 5px;
+}
+.btn{
+    background: hsl(154, 59%, 51%);
+    padding: 8px;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.form-footer{
+    background: none;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.form-footer span{
+    color: hsl(0, 100%, 74%);
+}
+
+@media screen and (max-width:375px ){
+    .contaner{
+        flex-direction: column;
+        width: 100%;
+    }
+    .images-text{
+        padding-top: 60px;
+    }
+    .frome-contant{
+        width: 80%;
+    }
+}
